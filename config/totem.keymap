@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp ESC    &kp N7        &kp N8        &kp N9        &kp LBRC    &kp RBRC  &caps_word  &kp UP_ARROW  &kp EQUAL      &kp KP_PLUS
-               &kp LSHFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBKT    &kp RBKT  &kp LEFT    &kp DOWN      &kp RIGHT      &kp KP_MINUS
-&kp LC(LS(C))  &kp DEL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LPAR    &kp RPAR  &kp PG_UP   &kp CAPS      &kp PAGE_DOWN  &kp KP_MULTIPLY  &kp LC(LS(V))
-                                        &trans        &trans        &trans      &mo ADJ   &kp KP_N0   &trans
+               &kp ESC    &kp N7        &kp N8        &kp N9        &kp LBRC    &kp RBRC  &caps_word      &kp UP_ARROW    &kp EQUAL            &kp KP_PLUS
+               &kp LSHFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBKT    &kp RBKT  &mt RSHFT LEFT  &mt RCTRL DOWN  &mt RIGHT_ALT RIGHT  &mt RCMD MINUS
+&kp LC(LS(C))  &kp DEL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LPAR    &kp RPAR  &kp PG_UP       &kp CAPS        &kp PAGE_DOWN        &kp KP_MULTIPLY  &kp LC(LS(V))
+                                        &trans        &trans        &trans      &mo ADJ   &kp KP_N0       &trans
             >;
         };
 
@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &trans  &trans    &trans  &trans  &trans
-        &trans  &kp EXCL   &kp RA(S)  &kp MINUS  &kp SQT      &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &kp CARET  &kp AMPS   &kp GRAVE  &kp DQT      &trans  &trans    &trans  &trans  &kp BSLH  &trans
-                           &trans     &trans     &mo ADJ      &trans  &kp C_PP  &trans
+        &trans  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &trans  &trans                 &trans           &trans                     &trans
+        &trans  &kp EXCL   &kp UNDER  &kp MINUS  &kp SQT      &trans  &mt RIGHT_SHIFT COLON  &mt RCTRL TILDE  &mt RIGHT_ALT C_VOLUME_UP  &mt RIGHT_GUI C_VOLUME_DOWN
+&trans  &trans  &kp CARET  &kp AMPS   &kp GRAVE  &kp DQT      &trans  &trans                 &trans           &trans                     &kp BSLH                     &trans
+                           &trans     &trans     &mo ADJ      &trans  &kp C_PP               &trans
             >;
         };
 
